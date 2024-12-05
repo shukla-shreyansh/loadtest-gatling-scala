@@ -1,5 +1,89 @@
+# Scala and SBT specific ignores
+target/
+project/target/
+project/project/
+
+# Compiled class files
 *.class
 *.log
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# SBT specific
+.bsp/
+.bloop/
+.metals/
+.scala-build/
+
+# IDE specific files
+.idea/
+.idea_modules/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.swp
+*~
+
+# Gatling simulation results
+gatling-results/
+target/gatling/
+
+# Dependency management
+dependency-reduced-pom.xml
+
+# Logs
+logs/
+*.log
+
+# Environment and configuration
+.env
+*.conf.local
+
+# Mac specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*~.nib
+
+# Virtual machine crash logs
 hs_err_pid*
+
+# Performance test artifacts
+performance-reports/
+load-test-output/
+
+# Sensitive data
+secrets/
+*.pem
+*.key
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Node modules (if any frontend tools used)
+node_modules/
+
+# Build output
+out/
+bin/
+
+# Metals configuration
+.metals/
+.bloop/

@@ -1,0 +1,4 @@
+contentId,title,genre,language,rating,duration_minutes,release_year,is_original,content_type
+content_001,pushpa,Crime Drama,Hindi,4.5,45,2018,TRUE,movies
+content_002,madam sir,Action Thriller,Hindi,4.7,40,2019,TRUE,series
+content_003,premam,Crime Drama,Hindi,4.6,50,2018,TRUE,series
